@@ -91,12 +91,25 @@ border-bottom-width: 3px;
   border-radius: 2em / 5em;
 }
 main{
-	float: left;
-	padding: 15px;
+float: left;
+	padding: 35px;
 }
 li {
 	padding:5px;
 	padding-right:10px;
+	}
+	iframe {
+		margin-top: 30px;
+	}
+	figure {
+	    display: inline-block;
+	    border: 1px dotted gray;
+	    margin: 20px; /* adjust as needed */
+	}
+
+	figure figcaption {
+	    border: 0px dotted blue;
+	    text-align: center;
 	}
 
 
